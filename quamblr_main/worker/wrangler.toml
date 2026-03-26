@@ -1,0 +1,10 @@
+name = "quamblr-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "quamblr"
+database_id = "9d19f45b-42c5-42ac-a351-91af2fa2051e"
+
+# Set this secret via: wrangler secret put JWT_SECRET
